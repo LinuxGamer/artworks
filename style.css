@@ -1,0 +1,56 @@
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/* Hero styles */
+.hero {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 20%;
+}
+
+/* Main content styles */
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Artwork styles */
+.artwork {
+    margin-bottom: 20px;
+}
+
+.artwork img {
+    max-width: 100%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media query for screens larger than 768 pixels */
+@media (min-width: 768px) {
+    .sidebar {
+        padding: 40px;
+    }
+}
