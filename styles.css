@@ -1,7 +1,11 @@
-/* Body and general styles */
+/* add this line in your css file */
+@import url('https://fonts.googleapis.com/css2?family=Monofur&display=swap');
+
+/* Then you can use the font in your css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Monofur', Arial, sans-serif;
     margin: 0;
+
 }
 
 .container {
